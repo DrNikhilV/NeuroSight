@@ -8,7 +8,7 @@ import os
 
 # Function to download the model file to a temporary location on disk
 def download_model():
-    model_url = 'https://raw.githubusercontent.com/DrNikhilV/My-Projects/main/NeuroSight%20AI/adrelu.h5'  # Replace with the correct raw URL
+    model_url = 'adrelu.h5'  # Replace with the correct model URL
     response = requests.get(model_url)
     response.raise_for_status()
     
